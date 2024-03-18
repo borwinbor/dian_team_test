@@ -11,5 +11,7 @@
 准确率随时间变化的图像<br>
 <img src="https://github.com/borwinbor/dian_team_test/blob/main/%E5%87%86%E7%A1%AE%E7%8E%87%E9%9A%8F%E8%BF%AD%E4%BB%A3%E6%AC%A1%E6%95%B0%E5%8F%98%E5%8C%96%E5%9B%BE%E5%83%8F.png" width=800>
 ## 3/17
-用自定义函数对每次迭代后的四项指标进行了计算<br>
+用库函数函数对每次迭代后的四项指标进行了计算(虽然写了自定义的指标评测函数，但是用自定义函数计算一直出现评测指标在1几乎不变的情况qwq)<br>
 <img src="https://github.com/borwinbor/dian_team_test/blob/main/NN.png" width=800>
+## 3/19
+发现了之前评测指标一直在1不变的原因：没有合理的加权平均方式，之前一直直接对精确度求平均值，在改用根据样本数量进行加权后，成功实现了评测
