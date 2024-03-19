@@ -17,7 +17,8 @@
 发现了之前评测指标一直在1不变的原因：没有合理的加权平均方式，之前一直直接对精确度求平均值，在改用根据样本数量进行加权后，成功实现了评测,但是还是只实现了随着迭代层数评测指标的变化<br>
 [NN(自定义函数实现版本).ipynb](https://github.com/borwinbor/dian_team_test/blob/main/NN(%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E7%89%88%E6%9C%AC).ipynb)<br>
 赶在ddl之前勉强写出了RNN实现分类并进行评测的代码<br>
-[RNN.ipynb](https://github.com/borwinbor/dian_team_test/blob/main/RNN.ipynb)<br>
-但是我本人对RNN还没有完全理解透彻qwq<br>
+[RNN.ipynb]([https://github.com/borwinbor/dian_team_test/blob/main/RNN.ipyn](https://github.com/borwinbor/dian_team_test/blob/main/RNN%20(1).ipynb)b)<br>
+代码只实现了大体思路，但细节部分没来得及优化，所以还运行不了（已经到ddl了）<br>
+我本人对RNN还没有完全理解透彻qwq<br>
 ### 写在最后<br>
 不管结果怎样，我感觉我这一个星期已经尽力了，感受了一次学的歇斯底里的一个星期hh
